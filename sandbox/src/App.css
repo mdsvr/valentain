@@ -1,0 +1,68 @@
+.valentine-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f9f9f9; /* Set a light background color */
+  border-radius: 16px; /* Add some rounded corners */
+  padding: 20px; /* Add some padding */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Custom class for Yes button styles */
+.yes-button {
+  font-family: "Arial", sans-serif; /* Change the font */
+  background-color: #4CAF50; /* Set a green color */
+  color: #fff;
+  font-weight: bold;
+  padding: 12px 24px; /* Increase padding */
+  border-radius: 25px; /* Make the button more rounded */
+  margin-top: 20px; /* Add some space between buttons */
+  transition: background-color 0.3s ease; /* Add smooth hover transition */
+}
+
+.yes-button:hover {
+  background-color: #45a049; /* Darken the color on hover */
+}
+
+/* Custom class for No button styles */
+.no-button {
+  background-color: #f44336; /* Set a red color */
+  color: #fff;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.no-button:hover {
+  background-color: #d32f2f; /* Darken the color on hover */
+}
+
+/* Custom class for text styles */
+.text-container {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: black; /* Add black color to the text */
+}
+
+.centered-container {
+  display: flex;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.github-link {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #007bff;
+  text-decoration: none;
+  z-index: 9999; /* Ensure it's above other elements */
+}
